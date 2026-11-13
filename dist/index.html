@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Pinar Care website prototype for stakeholder review." />
+  <title>Pinar Care — Website Prototype</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,500;9..144,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="compact.css" />
+  <link rel="stylesheet" href="photo-fix.css" />
+  <link rel="stylesheet" href="skyline.css" />
+  <link rel="stylesheet" href="logo.css" />
+  <link rel="stylesheet" href="about.css" />
+  <link rel="stylesheet" href="team.css" />
+  <link rel="stylesheet" href="layout-fixes.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="demo-ribbon"><span>Design prototype</span><span>Copy, imagery and service details are illustrative and subject to approval</span></div>
+  <header class="site-header" id="header">
+    <a class="brand" href="#/" aria-label="Pinar Care home">
+      <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 56 56"><path class="mark-home" d="M8 27.5 28 9l20 18.5v18A4.5 4.5 0 0 1 43.5 50h-31A4.5 4.5 0 0 1 8 45.5Z"/><path class="mark-leaf mark-leaf-left" d="M27.5 12.5C21.5 4 10.5 4.5 7 13.5c8.8.2 15.6 3.7 20.5 10.4Z"/><path class="mark-leaf mark-leaf-right" d="M28.5 12.5C34.5 4 45.5 4.5 49 13.5c-8.8.2-15.6 3.7-20.5 10.4Z"/><path class="mark-door" d="M20 50V34.5c0-5 3.5-8.5 8-8.5s8 3.5 8 8.5V50Z"/><circle class="mark-heart" cx="28" cy="34" r="2.6"/></svg></span>
+      <span class="brand-name"><span>Pinar</span><small>Care</small></span>
+    </a>
+    <nav class="desktop-nav" aria-label="Primary navigation">
+      <button class="nav-services" aria-expanded="false">Our Services <span>⌄</span></button>
+      <a href="#/about-us">About Us</a>
+      <a href="#/" data-scroll="approach">Who we are</a>
+      <button data-placeholder="Our Homes">Our Homes</button>
+      <button data-placeholder="Quality & Outcomes">Quality &amp; Outcomes</button>
+    </nav>
+    <div class="header-actions">
+      <button class="text-btn" data-placeholder="Careers">Careers</button>
+      <button class="pill-btn small" data-placeholder="Referrals">Make a referral <span>↗</span></button>
+      <button class="menu-toggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
+    </div>
+    <div class="services-menu" aria-hidden="true">
+      <a href="#/older-persons"><strong>Older Persons</strong><span>Comfort, dignity &amp; wellbeing</span></a>
+      <a href="#/learning-disabilities-autism"><strong>Learning Disabilities &amp; Autism</strong><span>Choice, independence &amp; belonging</span></a>
+      <a href="#/childrens-services"><strong>Children’s Services</strong><span>Safety, stability &amp; nurture</span></a>
+    </div>
+  </header>
+  <div class="mobile-drawer" aria-hidden="true">
+    <div class="mobile-links">
+      <span>Our services</span>
+      <a href="#/about-us">About Us</a>
+      <a href="#/older-persons">Older Persons</a>
+      <a href="#/learning-disabilities-autism">Learning Disabilities &amp; Autism</a>
+      <a href="#/childrens-services">Children’s Services</a>
+      <button data-placeholder="Our Homes">Our Homes</button>
+      <button data-placeholder="Quality & Outcomes">Quality &amp; Outcomes</button>
+      <button data-placeholder="Careers">Careers</button>
+      <button data-placeholder="Referrals">Make a referral</button>
+    </div>
+  </div>
+  <main id="main"></main>
+  <footer class="footer">
+    <div class="footer-main">
+      <a class="brand footer-brand" href="#/" aria-label="Pinar Care home"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 56 56"><path class="mark-home" d="M8 27.5 28 9l20 18.5v18A4.5 4.5 0 0 1 43.5 50h-31A4.5 4.5 0 0 1 8 45.5Z"/><path class="mark-leaf mark-leaf-left" d="M27.5 12.5C21.5 4 10.5 4.5 7 13.5c8.8.2 15.6 3.7 20.5 10.4Z"/><path class="mark-leaf mark-leaf-right" d="M28.5 12.5C34.5 4 45.5 4.5 49 13.5c-8.8.2-15.6 3.7-20.5 10.4Z"/><path class="mark-door" d="M20 50V34.5c0-5 3.5-8.5 8-8.5s8 3.5 8 8.5V50Z"/><circle class="mark-heart" cx="28" cy="34" r="2.6"/></svg></span><span class="brand-name"><span>Pinar</span><small>Care</small></span></a>
+      <p>Specialist care shaped around people, their choices and the lives they want to lead.</p>
+      <div class="footer-cta"><span>Ready to talk?</span><button data-placeholder="Contact Pinar Care">Start a conversation <b>↗</b></button></div>
+    </div>
+    <div class="footer-grid">
+      <div><h4>Services</h4><a href="#/older-persons">Older Persons</a><a href="#/learning-disabilities-autism">Learning Disabilities &amp; Autism</a><a href="#/childrens-services">Children’s Services</a></div>
+      <div><h4>Explore</h4><a href="#/about-us">About Us</a><button data-placeholder="Our Homes">Our Homes</button><button data-placeholder="Referrals">Referrals</button><button data-placeholder="Careers">Careers</button></div>
+      <div><h4>Information</h4><button data-placeholder="Policies">Policies</button><button data-placeholder="Privacy">Privacy</button><button data-placeholder="Accessibility">Accessibility</button></div>
+      <div><h4>Prototype note</h4><p>All imagery is illustrative. Service details and claims require Pinar Care review before publication.</p></div>
+    </div>
+    <div class="footer-bottom"><span>© Pinar Care — prototype for discussion</span><span>Designed for Louise’s review · November 2026</span></div>
+  </footer>
+  <dialog id="prototype-dialog">
+    <button class="dialog-close" aria-label="Close">×</button>
+    <span class="eyebrow">Prototype journey</span>
+    <h2 id="dialog-title">Page coming next</h2>
+    <p id="dialog-copy">This link is included to demonstrate the future site architecture. The full page is outside this prototype scope.</p>
+    <button class="pill-btn dialog-ok">Back to prototype</button>
+  </dialog>
+  <script src="app.js"></script>
+  <script src="refinement.js"></script>
+</body>
+</html>
