@@ -10,7 +10,7 @@ function scene(kind){
 }
 const imageThemes={hero:'older',older:'older',olderHero:'older',lda:'lda',ldaHero:'lda',child:'child',childHero:'child',garden:'home',interior:'home',hands:'lda'};
 const baseHome=home;
-function refine(){main.querySelectorAll('img').forEach(img=>{img.alt='Illustrative stock photography for '+(img.closest('.home-feature,.homes-strip')?'a welcoming home environment':'care and everyday support')+' — not an actual Pinar Care resident or setting';img.loading=img.closest('.hero,.segment-hero')?'eager':'lazy';});main.querySelectorAll('.outcome-icon,.step>span,.support-card .index').forEach((e,i)=>{e.innerHTML=['♡','⌂','✧','◎'][i%4];e.setAttribute('aria-hidden','true');});}
+function refine(){main.querySelectorAll('img').forEach(img=>{img.loading=img.closest('.hero,.segment-hero,.directory-hero,.about-hero')?'eager':'lazy';});}
 const originalRender=render;
 render=function(){originalRender();refine();};
 window.removeEventListener('hashchange',originalRender);
