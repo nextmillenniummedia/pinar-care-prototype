@@ -1,0 +1,3 @@
+.hero-note{color:white}
+.hero-media:after{display:block;background:linear-gradient(180deg,transparent 60%,rgba(14,44,35,.36))}
+.hero-media img,.segment-hero-media img,.service-card img,.approach-art img,.home-feature img,.homes-strip img{filter:saturate(.92) contrast(.98)}
